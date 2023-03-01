@@ -1,0 +1,35 @@
+.sidebar {
+  flex: 0.25;
+  padding: 2rem;
+  min-width: 250px;
+  height: calc(100vh - 6rem);
+  color: white;
+  background-color: #040404;
+  overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar__items {
+  margin: 2rem 0;
+}
+
+.sidebar__title {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.sidebar__logo {
+  height: 2.5rem;
+}
+
+.sidebar > hr {
+  border: 1px solid #4a4a4a;
+  width: 100%;
+  margin: 0 0 1rem 0;
+}
+.sidebar__icons-library {
+  font-size: 0.9rem !important;
+}

@@ -1,0 +1,59 @@
+.songRow {
+  padding: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  color: white;
+  margin-left: 1.25rem;
+  margin-right: -2rem;
+  transition: all 0.1s ease-in-out;
+}
+
+.songRow:hover {
+  cursor: pointer;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.songRow__info {
+  margin-left: 1rem;
+}
+
+.songRow__info > h1 {
+  font-size: 1rem;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.songRow__info > p {
+  font-size: 0.8rem;
+  line-height: 1;
+  margin: 0;
+}
+
+.songRow__artists {
+  font-weight: 700;
+  color: #ddd;
+}
+
+.songRow__albumName {
+  font-weight: 300;
+  color: #999;
+}
+
+.songRow__albumArt {
+  height: 60px;
+  width: 60px;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+}
+
+.songRow__song {
+  display: flex;
+  align-items: center;
+}
+
+.songRow__favorite {
+  margin-right: 2rem;
+}

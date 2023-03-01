@@ -1,0 +1,74 @@
+.main {
+  padding: 2rem;
+  width: 100%;
+  height: calc(100vh - 6rem);
+  overflow-y: scroll;
+  flex: 0.8;
+  color: white;
+  background: linear-gradient(to bottom, rgb(91, 87, 115), rgba(0, 0, 0, 1));
+}
+
+.main::-webkit-scrollbar {
+  display: none;
+}
+
+.main__header {
+  display: flex;
+  align-items: flex-end;
+  padding: 2rem;
+}
+
+.main__icons {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  margin-bottom: 1.75rem;
+}
+
+.main__playButton {
+  font-size: 64px !important;
+  
+  transition: transform 0.2s ease-in-out;
+}
+
+.main__icons > .MuiSvgIcon-root {
+  margin-right: 1rem;
+}
+
+.main__playButton:hover {
+  transform: scale(1.08);
+}
+
+.main__songslist {
+  z-index: 1;
+}
+
+.main__header > img {
+  min-width: 192px;
+  width: 20vw;
+  margin-right: 2rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+
+.main__headerText {
+  flex: 1;
+}
+
+.main__headerText > h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+.main__headerText > p {
+  font-size: 16px;
+  margin: 0;
+  color: #acacac;
+  max-width: 540px;
+}
+
+.main__headerText strong {
+  font-size: 0.8rem;
+  color: #9a9a9a;
+}
